@@ -11,3 +11,6 @@ activities = ["Football", "Music", "Art", "Dance"]
 
 
 #Task 3 Print the list students_approved
+students = ["John", "Doe", "Jane", "Smith"]
+grades = [85, 90, 78, 88]
+activities = ["Football", "Music", "Art", "Dance"]
