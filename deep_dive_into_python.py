@@ -8,15 +8,12 @@ for i in range(len(students)):
         print(f"This is my filtered out list: {students[i]}, {grades [i]}, {activities [i]}")
 
 #Task 2 For the remaining students, add students name in a new list named students_approved. Expected outcome: students_approved = ["John", "Doe", "Smith"]
-students = ["John", "Doe", "Jane", "Smith"]
-grades = [85, 90, 78, 88]
-activities = ["Football", "Music", "Art", "Dance"]
+students_approved = []
 
 for i in range(len(students)):
     if grades[i] >= 80:
-        print(f"students_approved = {students[i]}")
+        students_approved.append(students[i])
+
 
 #Task 3 Print the list students_approved
-students = ["John", "Doe", "Jane", "Smith"]
-grades = [85, 90, 78, 88]
-activities = ["Football", "Music", "Art", "Dance"]
+print(f"These are the approved students: {students_approved}")
